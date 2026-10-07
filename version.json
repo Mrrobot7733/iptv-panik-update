@@ -1,0 +1,7 @@
+{
+  "versionCode": 8,
+  "versionName": "1.0.7",
+  "releaseNotes": "• Menu spostato a destra: barra verticale compatta (78dp) sul lato destro per dare massimo spazio ai contenuti ed evitare scorrimenti infiniti per cambiare sezione\n• Rimossa completamente la funzione Gemini dall'applicazione\n• Traduzioni 100% in lingua inglese verificate su tutte le schermate, dialoghi e caricamenti\n• Sistema di aggiornamento diretto in-app attivo",
+  "apkUrl": "https://files.catbox.moe/feg98e.apk",
+  "dmgUrl": ""
+}
