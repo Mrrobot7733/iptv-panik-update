@@ -1,7 +1,7 @@
 {
-  "versionCode": 8,
-  "versionName": "1.0.7",
-  "releaseNotes": "• Menu shifted to the right: compact 78dp vertical rail gives full screen to content without endless scrolling\n• Gemini AI assistant removed completely\n• 100% English translations verified across all screens, dialogs, and loading states\n• Direct in-app updates permanently enabled",
-  "apkUrl": "https://github.com/Mrrobot7733/iptv-panik-update/releases/download/v1.0.7/panik.apk",
+  "versionCode": 9,
+  "versionName": "1.0.8",
+  "releaseNotes": "• Locandine complete e ben visibili: rapporto d'aspetto 2:3 verticale perfetto e nitido, mai tagliato\n• Nuova schermata Dettagli per i Film con locandina integra, trama, regia, cast, durata e qualità\n• Aggiunta ai Preferiti per tutti i titoli: pulsante dedicato nella scheda e pressione prolungata (OK) nella griglia\n• Supporto grafica 4K Ultra HD nativa per TV 4K e opzione Full HD selezionabile nelle Impostazioni",
+  "apkUrl": "https://github.com/Mrrobot7733/iptv-panik-update/releases/download/v1.0.8/panik.apk",
   "dmgUrl": ""
 }
