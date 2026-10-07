@@ -1,7 +1,7 @@
 {
-  "versionCode": 9,
-  "versionName": "1.0.8",
-  "releaseNotes": "• Locandine complete e ben visibili: rapporto d'aspetto 2:3 verticale perfetto e nitido, mai tagliato\n• Nuova schermata Dettagli per i Film con locandina integra, trama, regia, cast, durata e qualità\n• Aggiunta ai Preferiti per tutti i titoli: pulsante dedicato nella scheda e pressione prolungata (OK) nella griglia\n• Supporto grafica 4K Ultra HD nativa per TV 4K e opzione Full HD selezionabile nelle Impostazioni",
-  "apkUrl": "https://github.com/Mrrobot7733/iptv-panik-update/releases/download/v1.0.8/panik.apk",
+  "versionCode": 10,
+  "versionName": "1.0.9",
+  "releaseNotes": "• Riproduzione 4K istantanea: buffer ottimizzato a 1.5s, User-Agent IPTV Smarters e decoder fallback per eliminare il caricamento perpetuo\n• Barra in basso stile Netflix: scorrimento fluido con miniatura in preview fluttuante, timestamp e tempo rimanente\n• Controlli telecomando Fire TV perfetti: Play/Pausa immediato con OK/Enter e scorrimento rapido con frecce sinistra/destra\n• Funzione Continua a Guardare (Continue Watching) attiva al 100%: salvataggio automatico progressi, barra rossa e ripresa esatta",
+  "apkUrl": "https://github.com/Mrrobot7733/iptv-panik-update/releases/download/v1.0.9/panik.apk",
   "dmgUrl": ""
 }
