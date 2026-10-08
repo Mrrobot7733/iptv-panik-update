@@ -1,7 +1,7 @@
 {
-  "versionCode": 15,
-  "versionName": "1.0.14",
-  "releaseNotes": "• Nuovo Motore di Rete OkHttp con TCP Socket Window a 8 MB: risolve i blocchi su connessioni intercontinentali (es. Australia -> Europa) aumentando la banda passante massima fino a 10 volte rispetto al motore di sistema\n• Rampa di avvio buffer calibrata a 6-8s: consente a TCP di completare lo slow-start prima di avviare il video, evitando che la riproduzione superi il download\n• Pulsante rapido 'Apri con VLC / Player esterno' nella barra superiore del player: possibilità di lanciare VLC con 1 click come alternativa immediata\n• Riconnessione resiliente con riprova automatica su micro-disconnessioni",
-  "apkUrl": "https://github.com/Mrrobot7733/iptv-panik-update/releases/download/v1.0.14/panik.apk",
+  "versionCode": 16,
+  "versionName": "1.0.15",
+  "releaseNotes": "• Fix Telecomando Fire TV & Focus D-Pad: Navigazione fluida e reattiva verso la barra superiore (Pulsante Indietro, Audio & Sottotitoli, Apri con VLC / Player Esterno) con evidenziazione visiva ad alto contrasto su ogni pulsante\n• Risoluzione Definitiva Buffering dopo 5 minuti: Risolto il blocco causato dall'inattività TCP (il buffer da 4 minuti mandava la connessione in idle per 60s+ facendo chiudere il socket al server IPTV). Ottimizzato il flusso continuo (60s min, 100s max) con keep-alive attivo e 10s di rebuffer di sicurezza\n• Pulsante 'VLC / Player Esterno' Integrato Ovunque: Disponibile sia nella barra superiore del player sia direttamente nelle schede di dettaglio Film e Serie TV\n• Dialog Tracce Audio & Sottotitoli: Evidenziazione visiva immediata con il telecomando per ogni traccia audio e sottotitolo",
+  "apkUrl": "https://github.com/Mrrobot7733/iptv-panik-update/releases/download/v1.0.15/panik.apk",
   "dmgUrl": ""
 }
