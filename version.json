@@ -1,7 +1,7 @@
 {
-  "versionCode": 12,
-  "versionName": "1.0.11",
-  "releaseNotes": "• Risolto loop infinito tastiera su Fire TV: navigare con le frecce sopra la barra di ricerca non apre più la tastiera a schermo automaticamente\n• Modalità di digitazione esplicita con telecomando: la barra si evidenzia con un bordo rosso e badge 'OK per digitare'; la tastiera si apre solo premendo il tasto OK\n• Scorrimento verso il basso fluido (D-pad Down): premendo la freccia Giù la tastiera viene chiusa istantaneamente e il cursore passa subito alle categorie e ai film\n• Tasto Cancella dedicato: posizionato a destra della barra di ricerca, azzerabile al volo con la freccia Destra\n• Tasto Indietro protetto: premendo Indietro si esce dalla digitazione senza cancellare il testo cercato né chiudere l'app",
-  "apkUrl": "https://github.com/Mrrobot7733/iptv-panik-update/releases/download/v1.0.11/panik.apk",
+  "versionCode": 13,
+  "versionName": "1.0.12",
+  "releaseNotes": "• Avvio Istantaneo del Catalogo: memorizzazione locale su disco. Riaprendo l'app il catalogo appare immediatamente senza attese!\n• Aggiornamento Manuale: nuovo tasto 'Aggiorna Catalogo' nella barra in alto per risincronizzare canali e contenuti su richiesta\n• Tasto Continua per Serie TV: pulsante rapido 'Continua S{X}:E{Y}' con minutaggio esatto (e opzione 'Dall'inizio') direttamente nella scheda della serie\n• Risolto blocco/buffer periodico ogni minuto: flusso dati continuo ExoPlayer per evitare timeout dei proxy server IPTV\n• Ottimizzazione I/O disco: scrittura memoria progressi alleggerita per massima fluidità durante la visione",
+  "apkUrl": "https://github.com/Mrrobot7733/iptv-panik-update/releases/download/v1.0.12/panik.apk",
   "dmgUrl": ""
 }
