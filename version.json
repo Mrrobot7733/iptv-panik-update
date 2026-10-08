@@ -1,7 +1,7 @@
 {
-  "versionCode": 13,
-  "versionName": "1.0.12",
-  "releaseNotes": "• Avvio Istantaneo del Catalogo: memorizzazione locale su disco. Riaprendo l'app il catalogo appare immediatamente senza attese!\n• Aggiornamento Manuale: nuovo tasto 'Aggiorna Catalogo' nella barra in alto per risincronizzare canali e contenuti su richiesta\n• Tasto Continua per Serie TV: pulsante rapido 'Continua S{X}:E{Y}' con minutaggio esatto (e opzione 'Dall'inizio') direttamente nella scheda della serie\n• Risolto blocco/buffer periodico ogni minuto: flusso dati continuo ExoPlayer per evitare timeout dei proxy server IPTV\n• Ottimizzazione I/O disco: scrittura memoria progressi alleggerita per massima fluidità durante la visione",
-  "apkUrl": "https://github.com/Mrrobot7733/iptv-panik-update/releases/download/v1.0.12/panik.apk",
+  "versionCode": 14,
+  "versionName": "1.0.13",
+  "releaseNotes": "• Ripristinato e potenziato il Buffer Video ad alta capacità (60s min, fino a 4-6 minuti in RAM con 128-200MB): elimina i continui blocchi causati dal buffer ridotto della v12\n• Nuova opzione 'Buffer Video & Anti-Blocco' nelle Impostazioni: scegli tra Grande (2-4 min, predefinito), Ultra (5-6 min, anti-blocco estremo) e Standard\n• Soglia di ripresa rebuffer aumentata a 6-8 secondi per spezzare il loop di micro-soste e garantire streaming continuo\n• Connessione keep-alive e disattivazione compressione proxy con Accept-Encoding identity\n• Wi-Fi Lock a bassa latenza (Android 10+) per evitare il risparmio energetico della scheda di rete su Fire TV\n• Policy di riprova automatica fino a 5 tentativi in caso di micro-interruzioni di rete",
+  "apkUrl": "https://github.com/Mrrobot7733/iptv-panik-update/releases/download/v1.0.13/panik.apk",
   "dmgUrl": ""
 }
