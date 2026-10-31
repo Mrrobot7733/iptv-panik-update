@@ -1,7 +1,10 @@
 {
-  "versionCode": 16,
-  "versionName": "1.0.15",
-  "releaseNotes": "• Fix Telecomando Fire TV & Focus D-Pad: Navigazione fluida e reattiva verso la barra superiore (Pulsante Indietro, Audio & Sottotitoli, Apri con VLC / Player Esterno) con evidenziazione visiva ad alto contrasto su ogni pulsante\n• Risoluzione Definitiva Buffering dopo 5 minuti: Risolto il blocco causato dall'inattività TCP (il buffer da 4 minuti mandava la connessione in idle per 60s+ facendo chiudere il socket al server IPTV). Ottimizzato il flusso continuo (60s min, 100s max) con keep-alive attivo e 10s di rebuffer di sicurezza\n• Pulsante 'VLC / Player Esterno' Integrato Ovunque: Disponibile sia nella barra superiore del player sia direttamente nelle schede di dettaglio Film e Serie TV\n• Dialog Tracce Audio & Sottotitoli: Evidenziazione visiva immediata con il telecomando per ogni traccia audio e sottotitolo",
-  "apkUrl": "https://github.com/Mrrobot7733/iptv-panik-update/releases/download/v1.0.15/panik.apk",
+  "versionCode": 17,
+  "versionName": "1.0.16",
+  "releaseNotes": "• Streaming a Flusso Continuo Stile Smarters Pro: Risolto il blocco a 1-2 minuti. Finestra di buffering dinamica a lettura costante (30s-45s) che mantiene attiva la connessione TCP impedendo al server IPTV di chiudere il socket.
+• Watchdog Anti-Blocco & Auto-Recovery: Riconnessione automatica e trasparente dopo 6s di buffering e fino a 3 tentativi di Range HTTP automatici per micro-disconnessioni.
+• Player Predefinito nelle Impostazioni: Scegli se avviare sempre i flussi con Panik Player (ExoPlayer) o direttamente con VLC / Player Esterno.
+• D-pad Fire TV Ottimizzato: Navigazione immediata col tasto UP per raggiungere Audio/Sottotitoli e VLC in alto con evidenziazione chiara ad alto contrasto.",
+  "apkUrl": "https://github.com/Mrrobot7733/iptv-panik-update/releases/download/v1.0.16/panik.apk",
   "dmgUrl": ""
 }
