@@ -1,10 +1,11 @@
 {
-  "versionCode": 17,
-  "versionName": "1.0.16",
-  "releaseNotes": "• Streaming a Flusso Continuo Stile Smarters Pro: Risolto il blocco a 1-2 minuti. Finestra di buffering dinamica a lettura costante (30s-45s) che mantiene attiva la connessione TCP impedendo al server IPTV di chiudere il socket.
-• Watchdog Anti-Blocco & Auto-Recovery: Riconnessione automatica e trasparente dopo 6s di buffering e fino a 3 tentativi di Range HTTP automatici per micro-disconnessioni.
-• Player Predefinito nelle Impostazioni: Scegli se avviare sempre i flussi con Panik Player (ExoPlayer) o direttamente con VLC / Player Esterno.
-• D-pad Fire TV Ottimizzato: Navigazione immediata col tasto UP per raggiungere Audio/Sottotitoli e VLC in alto con evidenziazione chiara ad alto contrasto.",
-  "apkUrl": "https://github.com/Mrrobot7733/iptv-panik-update/releases/download/v1.0.16/panik.apk",
+  "versionCode": 18,
+  "versionName": "1.0.17",
+  "releaseNotes": "• Motore Dedicato Flussi 4K Ultra HD: Risolto il blocco iniziale dopo pochi secondi sui contenuti 4K. Introdotto cuscinetto di avvio calibrato a 10s per flussi ad alto bitrate (25-60 Mbps) per stabilizzare la velocità di picco TCP senza svuotare il buffer.
+• Qualità Normale Invariata al 100%: Per flussi 1080p, 720p e canali live standard l'avvio rimane immediato in 4 secondi e la fluidità perfetta della v1.0.16 è preservata al 100%.
+• Watchdog Anti-Blocco Rilassato a 18s: Il riaggancio automatico interviene solo in caso di stallo reale prolungato, senza mai interrompere la fase di buffering dei pesanti flussi 4K.
+• Decodifica Hardware MediaCodec Ottimizzata: Forzata la priorità assoluta ai decoder hardware su Fire TV ed eliminato il tunneling video per prevenire freeze del codec HEVC.
+• Badge '4K Ultra HD' & Stato di Caricamento: Riconoscimento automatico dei titoli 4K con badge visivo nella barra del player e stato dedicato a schermo.",
+  "apkUrl": "https://github.com/Mrrobot7733/iptv-panik-update/releases/download/v1.0.17/panik.apk",
   "dmgUrl": ""
 }
