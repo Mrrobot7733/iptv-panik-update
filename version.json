@@ -5,7 +5,8 @@
 • Qualità Normale Invariata al 100%: Per flussi 1080p, 720p e canali live standard l'avvio rimane immediato in 4 secondi e la fluidità perfetta della v1.0.16 è preservata al 100%.
 • Watchdog Anti-Blocco Rilassato a 18s: Il riaggancio automatico interviene solo in caso di stallo reale prolungato, senza mai interrompere la fase di buffering dei pesanti flussi 4K.
 • Decodifica Hardware MediaCodec Ottimizzata: Forzata la priorità assoluta ai decoder hardware su Fire TV ed eliminato il tunneling video per prevenire freeze del codec HEVC.
-• Badge '4K Ultra HD' & Stato di Caricamento: Riconoscimento automatico dei titoli 4K con badge visivo nella barra del player e stato dedicato a schermo.",
+• Badge '4K Ultra HD' & Stato di Caricamento: Riconoscimento automatico dei titoli 4K con badge visivo nella barra del player e stato dedicato a schermo.
+• Supporto Multipiattaforma Completo: Rilasciata la versione per Mac (file .dmg) e Android (.apk per TV, smartphone e tablet).",
   "apkUrl": "https://github.com/Mrrobot7733/iptv-panik-update/releases/download/v1.0.17/panik.apk",
-  "dmgUrl": ""
+  "dmgUrl": "https://github.com/Mrrobot7733/iptv-panik-update/releases/download/v1.0.17/IPTvPanik-1.0.17.dmg"
 }
